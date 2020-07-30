@@ -1,0 +1,11 @@
+name: docker-for-eden2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=2.7.18
+  - rdkit
+  - pip
+  - networkx=2.2
+  - pip:
+    - git+git://github.com/fabriziocosta/EDeN
